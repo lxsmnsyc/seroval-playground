@@ -12,7 +12,8 @@
   }
 
   return {
-    foo: iterate([...'first']),
-    bar: iterate([...'second']),
+    foo: iterate(['one', 'two', 'three']),
+    bar: iterate(['uno', 'dos', 'tres']),
+    baz: iterate(['un', 'deux', 'trois']),
   };
 })()
